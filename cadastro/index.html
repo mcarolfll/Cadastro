@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Financeiro</title>
+ </head>
+ <body>
+    
+<h3>Financeiro</h3>
+
+<form action="cadastro.php" method="POST">
+
+    <input type="text" name="salario" class="input" placeholder=" Coloque seu salario">
+    <input type="text" name="nome" class="input" placeholder="nome da conta">
+    <input type="text" name="vencimento" class="input" placeholder="data de vencimento">
+    <input type="text" name="valor" class="input" placeholder="valor da conta">
+
+    <a href="dashboard.php"><button onclick="calcular()">Enviar</button></a>
+</form>
+ </body>
+ </html>
